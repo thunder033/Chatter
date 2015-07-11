@@ -25,4 +25,15 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['jshint']);
+
+    grunt.registerTask('serve', 'launch server', function(){
+        grunt.log.writeln('Launching Sails...');
+        //sails lift
+
+        if(grunt.option('dev')){
+            grunt.log.warn('dev config...');
+            grunt.log.writeln('Launching Selenium Web Driver...');
+            //launch selenium web driver
+        }
+    })
 };
