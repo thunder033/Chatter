@@ -22,7 +22,17 @@ module.exports = function(grunt) {
 				cwd: './assets',
 				src: ['**/*.!(coffee|less)'],
 				dest: '.tmp/public'
-			}]
+			},{
+        expand: true,
+        cwd: './scripts',
+        src: ['**/*.!(coffee|less)'],
+        dest: '.tmp/public/scripts'
+      },{
+        expand: true,
+        cwd: './api',
+        src: ['**/*.!(coffee|less)'],
+        dest: '.tmp/public/api'
+      }]
 		},
 		build: {
 			files: [{
