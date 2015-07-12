@@ -75,7 +75,8 @@
 </div>
 
 <div class="container">
-  <div ng-view=""> <%- body %></div>
+  <div ng-view=""> </div>
+  <%- body %>
 </div>
 
 <div class="footer">
@@ -104,8 +105,17 @@
 <!-- build:js({.tmp,app}) ../scripts/scripts.js -->
 <!--SCRIPTS-->
 <script src="/js/dependencies/sails.io.js"></script>
-<script src="/bower_components/angular/angular.js"></script>
-<script src="/bower_components/angular-animate/angular-animate.js"></script>
+<script src="/js/dependencies/angular.js"></script>
+<script src="/js/dependencies/angular-animate.js"></script>
+<script src="/js/dependencies/angular-cookies.js"></script>
+<script src="/js/dependencies/angular-hammer.js"></script>
+<script src="/js/dependencies/angular-resource.js"></script>
+<script src="/js/dependencies/angular-route.js"></script>
+<script src="/js/dependencies/angular-sanitize.js"></script>
+<script src="/js/dependencies/angular-touch.js"></script>
+<script src="/js/dependencies/grunt.js"></script>
+<script src="/js/dependencies/hammer.js"></script>
+<script src="/js/dependencies/lib/json3.js"></script>
 <script src="/scripts/app.js"></script>
 <script src="/scripts/controllers/about.js"></script>
 <script src="/scripts/controllers/main.js"></script>
