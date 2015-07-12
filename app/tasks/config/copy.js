@@ -29,9 +29,9 @@ module.exports = function(grunt) {
         dest: '.tmp/public/scripts'
       },{
         expand: true,
-        cwd: './api',
-        src: ['**/*.!(coffee|less)'],
-        dest: '.tmp/public/api'
+        cwd: './views',
+        src: ['**/*.html'],
+        dest: '.tmp/public/views'
       }]
 		},
 		build: {
