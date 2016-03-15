@@ -1,7 +1,7 @@
 # chatter
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+version 0.12.1. (should really be updated)
 
 ## Build & development
 
